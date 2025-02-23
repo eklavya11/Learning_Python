@@ -1,0 +1,37 @@
+List = [24,23,"Eklavya"]
+#print(List)
+List2 = [["Hello","Eklavya"],["Rohan"]]
+#print(List2)
+#print(List2[0][1])
+#print(List2[1])
+
+#print(List[-1])
+
+
+def fibonacci_series(N):
+    fib = [0,1]
+    a=0
+    b=1
+    for i in range(2,N):
+        c= a+b
+        fib.append(c)
+        a=b
+        b=c
+    return fib
+
+list = fibonacci_series(5)
+
+#print(list)
+
+abc = ("a","b")
+
+list3 = [2,4,2,4,2]
+tuple = tuple(list3)
+#print(tuple)
+#print(tuple[1]) 
+
+set1 = set([1,2,3,4,1])
+print(set1)
+    
+
+    
